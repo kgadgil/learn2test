@@ -7,9 +7,9 @@ var chai = require('chai');
 var assert = chai.assert;
 var sinon = require('sinon');
 
-var stub = sinon.stub();
+/*var stub = sinon.stub();
 stub('hello');
-console.log(stub.firstCall.args); //output: ['hello']
+console.log(stub.firstCall.args); //output: ['hello']*/
 
 /**
  * 2. Takes object as param and sends it via AJAX to predefined URL

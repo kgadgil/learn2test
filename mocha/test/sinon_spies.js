@@ -12,16 +12,16 @@ var assert = chai.assert;
 var sinon = require('sinon');
 
 
-var spy = sinon.spy();
+/*var spy = sinon.spy();
 spy('Hello', 'World');
-console.log(spy.firstCall.args);
+console.log(spy.firstCall.args);*/
 
 /**
  * 2.
  * Replace func with a spy
  * @type {Object}
  */
-var user = {
+/*var user = {
   setName: function(name){
     this.name = name;
   }
@@ -33,7 +33,7 @@ user.setName('Darth Vader');
 //Which we can see by looking at the spy object
 console.log(setNameSpy.callCount); //output: 1
 //Important final step - remove the spy
-setNameSpy.restore();
+setNameSpy.restore();*/
 
 
 /** 

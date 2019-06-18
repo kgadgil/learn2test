@@ -28,5 +28,10 @@ describe('#sum()', function() {
       }).to.throw(TypeError, 'sum() expects only numbers.')
     })
   })
+  // Delay running the tests until after 5s
+/*setTimeout(function() {
+  run()
+}, 5000);*/
   
-})
+});
+
