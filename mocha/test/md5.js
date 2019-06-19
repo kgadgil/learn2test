@@ -34,14 +34,14 @@ describe('#md5()', function() {
         // call the done() callback with the error if any
         // to terminate the test
         if (err) {
-        
+          //console.log(err);
           // add an assertion to check the error
           expect(function() { throw err })
             .to.throw(TypeError, 'The "data" argument must be one of type string, Buffer, TypedArray, or DataView');
             
           // finally call the done() callback
           // to terminate the test and return
-          return done(err);
+          return done();
           
         }
         // call the done() callback

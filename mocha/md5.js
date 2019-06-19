@@ -4,7 +4,7 @@ var crypto = require('crypto');
 
 module.exports = function(string, callback) {
   var withCallback = (typeof callback === 'function');
-  console.log(typeof string)
+  //console.log(typeof string)
   try {
   
     var hash = crypto.createHash('md5')
@@ -16,7 +16,7 @@ module.exports = function(string, callback) {
   } catch (err) {
     if (withCallback) callback(err);
     else {
-      console.log(err);
+      //console.log(err);
       throw err;
     }
   }

@@ -6,7 +6,7 @@
 		"mocha": "6.1.4"
 	},
 	"scripts": {
-		"test": "mocha"
+		"test": "mocha test/promise-md5.js"
 	},
 	"devDependencies": {
 		"ajax": "0.0.4",

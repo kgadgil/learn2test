@@ -64,7 +64,7 @@ describe('#promiseMd5()', function() {
       await promiseMd5(12345).catch(function(err) {
         // add an assertion to check the error
         expect(function() { throw err })
-          .to.throw(TypeError, 'Data must be a string or a buffer');
+          .to.throw(TypeError, 'The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type number');
        })
        
     })
