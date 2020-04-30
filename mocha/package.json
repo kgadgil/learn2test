@@ -10,7 +10,7 @@
 	},
 	"devDependencies": {
 		"ajax": "0.0.4",
-		"jquery": "^3.4.1",
+		"jquery": "^3.5.0",
 		"sinon": "^7.3.2"
 	}
 }
