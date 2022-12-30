@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"dependencies": {
 		"chai": "4.0.0-canary.2",
-		"mocha": "6.1.4"
+		"mocha": "10.2.0"
 	},
 	"scripts": {
 		"test": "mocha test/promise-md5.js"
